@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        expand: {
+          '0%': { transform: 'scaleX(0)', transformOrigin: 'center', backgroundColor: 'transparent' },
+          '100%': { transform: 'scaleX(1)', transformOrigin: 'center', backgroundColor: '#3490dc' },
+        },
+      },
+      animation: {
+        expand: 'expand 0.5s ease-out',
+      },
       screens:{
         'xs':{'max':'580px'},
       },

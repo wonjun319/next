@@ -18,13 +18,12 @@ export default function Home() {
         className="object-cover"
       />
       <Profilebox text={"프로필칸"}height={250}/>
-      <Defaultbox href={'tel:+01046429963'} text={"전화로 『 바로 』문의하기"}height={55}/>
-      <Defaultbox href={'/post'} text={"구글폼으로 문의하기"}height={55}/>
-      <Defaultbox href={'/post'} text={"하수구 막힘"}height={55}/>
-      <Defaultbox href={'/post'} text={"음식물 분쇄기 구경하기"}height={55}/>
-      <Defaultbox href={'/post'} text={"가능 지역 확인"}height={55}/>
+      <Defaultbox href={'tel:01046429963'} text={"전화로 『 바로 』문의하기"}height={55}/>
+      <Defaultbox href={'https://forms.gle/8mznfsYgP6iui4YF6'} text={"구글폼으로 문의하기"}height={55}/>
       <Defaultbox href={'https://blog.naver.com/kt6062002'} text={"최근 작업 구경하기"}height={55}/>
-      <Defaultbox href={'/post'} text={"싱크홀 구경하기"}height={55}/>
+      <Defaultbox href={'/post'} text={"음식물 분쇄기 구경하기"}height={55}/>
+      <Defaultbox href={'/post'} text={"하수구 막힘"}height={55}/>
+      <Defaultbox href={'/post'} text={"가능 지역 확인"}height={55}/>
       
     </main>
   )
