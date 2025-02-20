@@ -2,7 +2,7 @@ import Defaultbox from "@/components/ui/defaultbox"
 import Profilebox from "@/components/ui/profilebox"
 import { Metadata } from "next"
 import Image from "next/image"
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export const metadata: Metadata = {
   title:'Good'
 }
