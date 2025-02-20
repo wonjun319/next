@@ -1,9 +1,7 @@
 
-// import Sidebar from "@/components/ui/sidebar";
-// import Sidebar from "@/components/ui/sidebar";
 import "./globals.css";
-
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -14,8 +12,8 @@ export default function RootLayout({
       <body
         
       >
-        {/* <Sidebar /> */}
-      {/* <Sidebar/> */}
+        <Analytics/>
+      <SpeedInsights/>
       {children}
       </body>
     </html>
