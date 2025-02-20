@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="h-full w-[500px] xs:w-4/5 flex flex-col items-center pt-10 gap-4">
+      <SpeedInsights/>
       <Image
         src="https://sinkpure.com/theme/basic/img/viz_model.png"
         alt="img"
